@@ -235,7 +235,7 @@ class EnhancedSquatAnalysisEngine:
         self.pose = self.mp_pose.Pose(
             min_detection_confidence=0.5,
             min_tracking_confidence=0.5,
-            model_complexity=2
+            model_complexity=1
         )
         self.guide = SquatGuide()
         self.standards = SquatStandards()
